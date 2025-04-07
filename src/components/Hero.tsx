@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-primary-500 hover:bg-primary-600">
-              <a href="#register">Register Now</a>
+              <a href="https://ticketspice.com/rct-workshop" target="_blank" rel="noopener noreferrer">Register Now</a>
             </Button>
             <Button asChild variant="outline" size="lg" className="border-primary-500 text-primary-500">
               <a href="#details">Learn More</a>
