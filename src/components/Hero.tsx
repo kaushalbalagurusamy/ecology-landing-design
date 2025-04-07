@@ -22,8 +22,12 @@ const Hero: React.FC = () => {
             <span className="block">Deep Ecology Workshop</span>
           </h1>
           
-          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-muted-foreground mb-3 max-w-2xl mx-auto">
             Explore the intersection of human relationships and ecological systems in this transformative three-day workshop for therapists, educators, and change-makers.
+          </p>
+          
+          <p className="text-primary-600 font-medium mb-8 max-w-2xl mx-auto">
+            Hosted by Dr. Jayme Banks & Dr. Connie Gunderson
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

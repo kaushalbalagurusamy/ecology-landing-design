@@ -10,6 +10,21 @@ import Footer from "@/components/Footer";
 import { Separator } from "@/components/ui/separator";
 
 const Index: React.FC = () => {
+  const hostsData = [
+    {
+      name: "Jayme Banks, Ph.D.",
+      title: "Relational Cultural Theory Specialist",
+      bio: "Dr. Jayme Banks is a leading voice in Relational Cultural Theory, with over 15 years of experience integrating RCT into clinical practice, education, and community development. Her research focuses on the healing potential of authentic connection across diverse cultural contexts.",
+      imageSrc: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      name: "Connie Gunderson, Ph.D.",
+      title: "Deep Ecology Practitioner & Educator",
+      bio: "Dr. Connie Gunderson has devoted her career to exploring the intersection of environmental ethics, ecological consciousness, and social justice. Her innovative work bridges theoretical frameworks with practical applications for healing both human communities and the natural world.",
+      imageSrc: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+    }
+  ];
+
   const speakersData = [
     {
       name: "Dr. Sarah Johnson",
@@ -36,6 +51,32 @@ const Index: React.FC = () => {
       <Navbar />
       <Hero />
       <AboutSection />
+      
+      {/* Workshop Hosts Section */}
+      <section id="hosts" className="section-padding bg-white">
+        <div className="container-custom">
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h2 className="heading-lg mb-6">Meet Your Hosts</h2>
+            <p className="text-lg text-muted-foreground">
+              This transformative workshop is led by two pioneering practitioners who have dedicated their careers to exploring the intersection of human relationships and ecological consciousness.
+            </p>
+          </div>
+
+          <div className="space-y-8">
+            {hostsData.map((host, index) => (
+              <SpeakerCard 
+                key={index}
+                name={host.name}
+                title={host.title}
+                bio={host.bio}
+                imageSrc={host.imageSrc}
+                isHost={true}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+      
       <WorkshopDetails />
 
       {/* Speakers Section */}
