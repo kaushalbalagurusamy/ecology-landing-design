@@ -13,17 +13,17 @@ const Hero: React.FC = () => {
       <div className="container-custom relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <span className="inline-block px-3 py-1 bg-accent-300 text-primary-700 rounded-full text-sm font-medium mb-6">
-            July 15-17, 2025 • In-Person & Virtual
+            July 15, 2025 • In-Person & Virtual
           </span>
           
           <h1 className="heading-xl mb-6">
-            <span className="block text-primary-500">Deepening Connection:</span>
-            <span className="block">Relational Cultural Theory &</span>
-            <span className="block">Deep Ecology Workshop</span>
+            <span className="block text-primary-500">Interconnected Empathy:</span>
+            <span className="block">An Experiential Journey into</span>
+            <span className="block">Deep Ecology & Mutualism</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-3 max-w-2xl mx-auto">
-            Explore the intersection of human relationships and ecological systems in this transformative three-day workshop for therapists, educators, and change-makers.
+            Explore how all beings—human and non-human—are interconnected through this transformative one-day workshop for therapists, educators, and change-makers.
           </p>
           
           <p className="text-primary-600 font-medium mb-8 max-w-2xl mx-auto">
