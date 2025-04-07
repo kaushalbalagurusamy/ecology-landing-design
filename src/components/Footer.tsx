@@ -91,16 +91,20 @@ Address: 123 Forest Road, Burlington, VT 05401
                 <a href="#" className="hover:text-accent-300 transition-colors">Recommended Books</a>
               </li>
             </ul>
+
+            <div className="mb-3">
+              <p className="text-sm"><MapPin size={16} className="inline mr-2" /> 123 Forest Road, Burlington, VT 05401</p>
+            </div>
             
             <Button 
-              variant="outline" 
+              variant="secondary" 
               onClick={handleCopyContactInfo}
-              className="flex items-center gap-2 border-white text-white hover:bg-white/20"
+              className="flex items-center gap-2 bg-secondary text-white hover:bg-secondary/80"
             >
               <Copy size={16} />
-              <span>Copy Contact Information</span>
+              <span>Click to Copy Contact Details</span>
             </Button>
-            <p className="text-xs mt-2 text-primary-200">Click button to copy email, phone, and address</p>
+            <p className="text-xs mt-2 text-primary-200">Email and phone will be copied to your clipboard</p>
           </div>
         </div>
         
