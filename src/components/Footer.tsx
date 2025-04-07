@@ -1,16 +1,43 @@
 
 import React from "react";
-import { Facebook, Twitter, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Twitter, Instagram, Mail, Phone, MapPin, Copy } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { useToast } from "@/components/ui/use-toast";
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
+  const { toast } = useToast();
+  
+  // Contact information to be copied
+  const contactInfo = `
+Email: jaymeb@sas.upenn.edu
+Phone: (617) 966-9096
+Address: 123 Forest Road, Burlington, VT 05401
+  `;
+  
+  const handleCopyContactInfo = () => {
+    navigator.clipboard.writeText(contactInfo.trim())
+      .then(() => {
+        toast({
+          title: "Contact information copied",
+          description: "The contact details have been copied to your clipboard.",
+        });
+      })
+      .catch(() => {
+        toast({
+          title: "Failed to copy",
+          description: "Please try again or contact us directly.",
+          variant: "destructive",
+        });
+      });
+  };
 
   return (
     <footer className="bg-primary-600 text-white">
       <div className="container-custom py-12 md:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="font-heading text-xl font-bold mb-4">RCT Workshop</h3>
+            <h3 className="font-heading text-xl font-bold mb-4">RCT: Deep Ecology Workshop</h3>
             <p className="text-primary-100">
               Bridging human connections and ecological awareness for a more balanced and sustainable future.
             </p>
@@ -52,8 +79,8 @@ const Footer: React.FC = () => {
           </div>
           
           <div>
-            <h3 className="font-bold text-lg mb-4">Resources</h3>
-            <ul className="space-y-2">
+            <h3 className="font-bold text-lg mb-4">Resources & Contact</h3>
+            <ul className="space-y-3 mb-5">
               <li>
                 <a href="#" className="hover:text-accent-300 transition-colors">Relational Cultural Theory</a>
               </li>
@@ -63,37 +90,23 @@ const Footer: React.FC = () => {
               <li>
                 <a href="#" className="hover:text-accent-300 transition-colors">Recommended Books</a>
               </li>
-              <li>
-                <a href="#" className="hover:text-accent-300 transition-colors">Past Workshops</a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-accent-300 transition-colors">Testimonials</a>
-              </li>
             </ul>
-          </div>
-          
-          <div>
-            <h3 className="font-bold text-lg mb-4">Contact Us</h3>
-            <ul className="space-y-3">
-              <li className="flex items-center">
-                <Mail size={18} className="mr-2 text-accent-300" />
-                <a href="mailto:info@rctworkshop.com" className="hover:text-accent-300 transition-colors">info@rctworkshop.com</a>
-              </li>
-              <li className="flex items-center">
-                <Phone size={18} className="mr-2 text-accent-300" />
-                <a href="tel:+18025550123" className="hover:text-accent-300 transition-colors">(802) 555-0123</a>
-              </li>
-              <li className="flex items-start">
-                <MapPin size={18} className="mr-2 text-accent-300 mt-1" />
-                <span>123 Forest Road, Burlington, VT 05401</span>
-              </li>
-            </ul>
+            
+            <Button 
+              variant="outline" 
+              onClick={handleCopyContactInfo}
+              className="flex items-center gap-2 border-white text-white hover:bg-white/20"
+            >
+              <Copy size={16} />
+              <span>Copy Contact Information</span>
+            </Button>
+            <p className="text-xs mt-2 text-primary-200">Click button to copy email, phone, and address</p>
           </div>
         </div>
         
         <div className="border-t border-primary-500 pt-6 mt-8 text-center">
           <p className="text-primary-200">
-            © {currentYear} Relational Cultural Theory Workshop. All rights reserved.
+            © {currentYear} RCT: Deep Ecology Workshop. All rights reserved.
           </p>
         </div>
       </div>
