@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
         <div className="hidden md:flex items-center space-x-8">
           <a href="#about" className="text-foreground hover:text-primary-500 transition-colors">About</a>
           <a href="#details" className="text-foreground hover:text-primary-500 transition-colors">Workshop Details</a>
-          <a href="#speakers" className="text-foreground hover:text-primary-500 transition-colors">Speakers</a>
+          <a href="#hosts" className="text-foreground hover:text-primary-500 transition-colors">Hosts</a>
           <Button asChild className="bg-primary-500 hover:bg-primary-600">
             <a href="#register">Register Now</a>
           </Button>
@@ -55,11 +55,11 @@ const Navbar: React.FC = () => {
                 Workshop Details
               </a>
               <a 
-                href="#speakers" 
+                href="#hosts" 
                 className="text-foreground hover:text-primary-500 transition-colors py-2"
                 onClick={toggleMenu}
               >
-                Speakers
+                Hosts
               </a>
               <Button asChild className="bg-primary-500 hover:bg-primary-600 w-full">
                 <a href="#register" onClick={toggleMenu}>Register Now</a>
