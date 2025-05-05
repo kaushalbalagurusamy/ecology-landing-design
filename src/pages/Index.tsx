@@ -1,3 +1,4 @@
+
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
@@ -119,7 +120,7 @@ const Index: React.FC = () => {
                 <div className="space-y-4">
                   <p className="font-medium">Have questions before registering?</p>
                   <p className="text-sm text-muted-foreground">
-                    Contact us at <a href="mailto:info@rctworkshop.com" className="text-primary-500 hover:underline">info@rctworkshop.com</a> or call <a href="tel:+18025550123" className="text-primary-500 hover:underline">(802) 555-0123</a>
+                    Contact us at <a href="mailto:jaymeb@sas.upenn.edu" className="text-primary-500 hover:underline">jaymeb@sas.upenn.edu</a> or call <a href="tel:+16179669096" className="text-primary-500 hover:underline">(617) 966-9096</a>
                   </p>
                 </div>
               </div>

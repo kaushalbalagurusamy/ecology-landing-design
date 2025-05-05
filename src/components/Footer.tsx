@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Facebook, Twitter, Instagram, Mail, Phone, MapPin, Copy } from "lucide-react";
+import { Facebook, Twitter, Instagram, Mail, Phone, Copy } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
 
@@ -12,7 +12,6 @@ const Footer: React.FC = () => {
   const contactInfo = `
 Email: jaymeb@sas.upenn.edu
 Phone: (617) 966-9096
-Address: 123 Forest Road, Burlington, VT 05401
   `;
   
   const handleCopyContactInfo = () => {
@@ -37,7 +36,7 @@ Address: 123 Forest Road, Burlington, VT 05401
       <div className="container-custom py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="font-heading text-xl font-bold mb-4">RCT: Deep Ecology Workshop</h3>
+            <h3 className="font-heading text-xl font-bold mb-4">RCT Ecology Workshop</h3>
             <p className="text-primary-100">
               Bridging human connections and ecological awareness for a more balanced and sustainable future.
             </p>
@@ -67,7 +66,7 @@ Address: 123 Forest Road, Burlington, VT 05401
                 <a href="#details" className="hover:text-accent-300 transition-colors">Workshop Details</a>
               </li>
               <li>
-                <a href="#speakers" className="hover:text-accent-300 transition-colors">Our Speakers</a>
+                <a href="#hosts" className="hover:text-accent-300 transition-colors">Meet Our Hosts</a>
               </li>
               <li>
                 <a href="#register" className="hover:text-accent-300 transition-colors">Registration</a>
@@ -85,15 +84,21 @@ Address: 123 Forest Road, Burlington, VT 05401
                 <a href="#" className="hover:text-accent-300 transition-colors">Relational Cultural Theory</a>
               </li>
               <li>
-                <a href="#" className="hover:text-accent-300 transition-colors">Deep Ecology Resources</a>
+                <a href="#" className="hover:text-accent-300 transition-colors">Relational Ecology Resources</a>
               </li>
               <li>
                 <a href="#" className="hover:text-accent-300 transition-colors">Recommended Books</a>
               </li>
             </ul>
 
-            <div className="mb-3">
-              <p className="text-sm"><MapPin size={16} className="inline mr-2" /> 123 Forest Road, Burlington, VT 05401</p>
+            <div className="flex items-center gap-2 mb-3">
+              <Mail size={16} className="text-accent-300" />
+              <a href="mailto:jaymeb@sas.upenn.edu" className="hover:text-accent-300 transition-colors">jaymeb@sas.upenn.edu</a>
+            </div>
+            
+            <div className="flex items-center gap-2 mb-3">
+              <Phone size={16} className="text-accent-300" />
+              <a href="tel:+16179669096" className="hover:text-accent-300 transition-colors">(617) 966-9096</a>
             </div>
             
             <Button 
@@ -110,7 +115,7 @@ Address: 123 Forest Road, Burlington, VT 05401
         
         <div className="border-t border-primary-500 pt-6 mt-8 text-center">
           <p className="text-primary-200">
-            © {currentYear} RCT: Deep Ecology Workshop. All rights reserved.
+            © {currentYear} RCT Ecology Workshop. All rights reserved.
           </p>
         </div>
       </div>

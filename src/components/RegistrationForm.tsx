@@ -56,10 +56,6 @@ const RegistrationForm: React.FC = () => {
                 <RadioGroupItem value="in-person" id="in-person" />
                 <Label htmlFor="in-person" className="font-normal">In-Person (Testing - Free)</Label>
               </div>
-              <div className="flex items-center space-x-2">
-                <RadioGroupItem value="student" id="student" />
-                <Label htmlFor="student" className="font-normal">Student Rate (Testing - Free)</Label>
-              </div>
             </div>
           </RadioGroup>
         </div>
