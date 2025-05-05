@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
     <nav className="bg-cream-500/80 backdrop-blur-sm fixed top-0 left-0 right-0 z-50">
       <div className="container-custom flex items-center justify-between py-4">
         <a href="/" className="flex items-center">
-          <span className="font-heading text-primary-500 text-xl md:text-2xl font-bold">RCT: Deep Ecology Workshop</span>
+          <span className="font-heading text-primary-500 text-xl md:text-2xl font-bold">RCT Ecology Workshop</span>
         </a>
         
         {/* Mobile menu button */}

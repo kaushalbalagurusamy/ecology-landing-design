@@ -13,21 +13,21 @@ const Hero: React.FC = () => {
       <div className="container-custom relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <span className="inline-block px-3 py-1 bg-accent-300 text-primary-700 rounded-full text-sm font-medium mb-6">
-            July 15, 2025 • In-Person & Virtual
+            June 22, 2025 • Two Locations: MA & MN
           </span>
           
           <h1 className="heading-xl mb-6">
-            <span className="block text-primary-500">Interconnected Empathy:</span>
-            <span className="block">An Experiential Journey into</span>
-            <span className="block">Deep Ecology & Mutualism</span>
+            <span className="block text-primary-500">Relational Ecology,</span>
+            <span className="block">Sustainability, and Resiliency Through</span>
+            <span className="block">the Lens of Relational-Cultural Theory</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-3 max-w-2xl mx-auto">
-            Explore how all beings—human and non-human—are interconnected through this transformative one-day workshop for therapists, educators, and change-makers.
+            Explore how all beings—human and non-human—are interconnected through this transformative one-day workshop for local leaders, educators, and change-makers.
           </p>
           
           <p className="text-primary-600 font-medium mb-8 max-w-2xl mx-auto">
-            Hosted by Dr. Jayme Banks & Dr. Connie Gunderson
+            Hosted by Jayme Banks, B.A., & Dr. Connie Gunderson, PhD, LISW
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

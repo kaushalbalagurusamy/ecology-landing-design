@@ -27,7 +27,7 @@ const WorkshopDetails: React.FC = () => {
           <p className="text-lg text-muted-foreground mb-4">
             Join us for a transformative day of learning, connection, and practice at the intersection of relational and ecological wisdom.
           </p>
-          <h3 className="text-xl font-bold text-primary-500 mb-2">Interconnected Empathy: An Experiential Journey into Deep Ecology and Mutualism</h3>
+          <h3 className="text-xl font-bold text-primary-500 mb-2">Relational Ecology, Sustainability, and Resiliency Through the Lens of Relational-Cultural Theory</h3>
           <p className="text-muted-foreground">
             Exploring how all beings—human and non-human—are interconnected through embodied, sensory, and shared experiences.
           </p>
@@ -42,7 +42,7 @@ const WorkshopDetails: React.FC = () => {
                 <Calendar className="h-6 w-6 text-primary-500 mt-0.5" />
                 <div>
                   <h4 className="font-bold">Date</h4>
-                  <p className="text-muted-foreground">July 15, 2025 (Tuesday)</p>
+                  <p className="text-muted-foreground">June 22, 2025 (Sunday)</p>
                 </div>
               </div>
               
@@ -50,16 +50,22 @@ const WorkshopDetails: React.FC = () => {
                 <Clock className="h-6 w-6 text-primary-500 mt-0.5" />
                 <div>
                   <h4 className="font-bold">Time</h4>
-                  <p className="text-muted-foreground">9:00 AM - 5:00 PM (EST)</p>
+                  <p className="text-muted-foreground">Massachusetts: 10:00 AM - 4:00 PM (EST)</p>
+                  <p className="text-muted-foreground">Minnesota: 9:00 AM - 3:00 PM (CST)</p>
                 </div>
               </div>
               
               <div className="flex items-start gap-4">
                 <MapPin className="h-6 w-6 text-primary-500 mt-0.5" />
                 <div>
-                  <h4 className="font-bold">Location</h4>
-                  <p className="text-muted-foreground">Harmony Retreat Center</p>
-                  <p className="text-muted-foreground">123 Forest Road, Burlington, VT</p>
+                  <h4 className="font-bold">Locations</h4>
+                  <p className="font-medium text-foreground mt-1">Massachusetts Location:</p>
+                  <p className="text-muted-foreground">Lexington Community Center</p>
+                  <p className="text-muted-foreground mb-2">Lexington, MA</p>
+                  
+                  <p className="font-medium text-foreground">Minnesota Location:</p>
+                  <p className="text-muted-foreground">Duluth/Cotton Nature Center</p>
+                  <p className="text-muted-foreground">Duluth/Cotton, MN</p>
                 </div>
               </div>
               
@@ -75,7 +81,7 @@ const WorkshopDetails: React.FC = () => {
                 <Users className="h-6 w-6 text-primary-500 mt-0.5" />
                 <div>
                   <h4 className="font-bold">Who Should Attend</h4>
-                  <p className="text-muted-foreground">Therapists, Counselors, Educators, Community Leaders, and anyone interested in relational growth and ecological connection</p>
+                  <p className="text-muted-foreground">Local Leaders, Educators, Community Organizers, and anyone interested in relational growth and ecological connection</p>
                 </div>
               </div>
               

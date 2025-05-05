@@ -12,14 +12,14 @@ import { Separator } from "@/components/ui/separator";
 const Index: React.FC = () => {
   const hostsData = [
     {
-      name: "Jayme Banks, Ph.D.",
+      name: "Jayme Banks, B.A.",
       title: "Relational Cultural Theory Specialist",
-      bio: "Dr. Jayme Banks is a leading voice in Relational Cultural Theory, with over 15 years of experience integrating RCT into clinical practice, education, and community development. Her research focuses on the healing potential of authentic connection across diverse cultural contexts.",
+      bio: "Jayme Banks is a leading voice in Relational Cultural Theory, with extensive experience integrating RCT into education, community development, and leadership. Her work focuses on creating authentic connections across diverse cultural contexts to foster growth and resilience.",
       imageSrc: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
     },
     {
-      name: "Connie Gunderson, Ph.D.",
-      title: "Deep Ecology Practitioner & Educator",
+      name: "Connie Gunderson, PhD, LISW",
+      title: "Relational Ecology Practitioner & Educator",
       bio: "Dr. Connie Gunderson has devoted her career to exploring the intersection of environmental ethics, ecological consciousness, and social justice. Her innovative work bridges theoretical frameworks with practical applications for healing both human communities and the natural world.",
       imageSrc: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
     }
@@ -64,7 +64,7 @@ const Index: React.FC = () => {
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="heading-lg mb-6">Secure Your Spot</h2>
             <p className="text-lg text-muted-foreground">
-              Registration is limited to ensure an optimal learning experience. Early bird pricing ends April 30th.
+              Registration is limited to ensure an optimal learning experience. Choose from our Massachusetts or Minnesota locations.
             </p>
           </div>
 

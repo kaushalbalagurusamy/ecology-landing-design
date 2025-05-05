@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Leaf, Users, HeartHandshake } from "lucide-react";
+import { Leaf, Users, HeartHandshake, Shield, Recycle } from "lucide-react";
 
 interface FeatureCardProps {
   icon: React.ReactNode;
@@ -25,25 +25,30 @@ const AboutSection: React.FC = () => {
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="heading-lg mb-6">Where Relational Connection Meets Ecological Wisdom</h2>
           <p className="text-lg text-muted-foreground">
-            This unique workshop bridges Relational Cultural Theory's focus on growth-fostering relationships with the profound insights of Deep Ecology, creating a holistic framework for healing both human communities and the natural world.
+            This unique workshop bridges Relational Cultural Theory's focus on growth-fostering relationships with the profound insights of relational ecology, creating a holistic framework for healing both human communities and the natural world.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 gap-8 mb-16">
           <FeatureCard 
             icon={<HeartHandshake className="h-8 w-8 text-primary-500" />}
-            title="Relational Cultural Theory" 
-            description="Explore how authentic connections and mutual empathy are central to psychological wellbeing and personal growth."
+            title="Relational-Cultural Theory" 
+            description="Explore how RCT can be applied to ecological awareness and understanding, creating pathways for authentic connections and mutual empathy."
           />
           <FeatureCard 
             icon={<Leaf className="h-8 w-8 text-primary-500" />}
-            title="Deep Ecology Principles" 
-            description="Learn how ecological consciousness and understanding our place in the web of life transforms our relationship with nature."
+            title="Relational Ecology" 
+            description="Discover how relational ecology connects to relational and ecological movement, transforming our relationship with nature and each other."
           />
           <FeatureCard 
-            icon={<Users className="h-8 w-8 text-primary-500" />}
-            title="Integration & Practice" 
-            description="Develop practical approaches for integrating relational awareness and ecological consciousness in therapeutic and educational settings."
+            icon={<Shield className="h-8 w-8 text-primary-500" />}
+            title="Resiliency" 
+            description="Learn how Relational-Cultural Theory can inform and strengthen resiliency initiatives in both human communities and natural systems."
+          />
+          <FeatureCard 
+            icon={<Recycle className="h-8 w-8 text-primary-500" />}
+            title="Sustainability" 
+            description="Understand how RCT principles can inform sustainability initiatives and create lasting positive impacts across interconnected systems."
           />
         </div>
 
@@ -52,7 +57,7 @@ const AboutSection: React.FC = () => {
             <div className="md:w-1/2 mb-8 md:mb-0">
               <img 
                 src="https://images.unsplash.com/photo-1472396961693-142e6e269027" 
-                alt="Deer in nature representing deep ecology" 
+                alt="Deer in nature representing relational ecology" 
                 className="rounded-lg w-full h-80 object-cover"
               />
             </div>
@@ -62,7 +67,7 @@ const AboutSection: React.FC = () => {
                 In a world experiencing both social disconnection and ecological crisis, we need frameworks that heal the false separation between humans and the natural world. This workshop provides both theory and practice for those seeking to foster deeper connections.
               </p>
               <p>
-                Whether you work as a therapist, educator, or community leader, understanding the parallels between human relationships and ecological systems offers powerful tools for transformation.
+                Whether you work as a local leader, educator, or community organizer, understanding the parallels between human relationships and ecological systems offers powerful tools for transformation.
               </p>
             </div>
           </div>

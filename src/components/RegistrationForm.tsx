@@ -32,6 +32,24 @@ const RegistrationForm: React.FC = () => {
               After submitting, you'll receive an email confirmation with your registration ID.
             </p>
           </div>
+          
+          <div className="mb-6">
+            <Label className="text-base font-medium mb-2 block">Location</Label>
+            <RadioGroup defaultValue="massachusetts">
+              <div className="flex flex-col space-y-3">
+                <div className="flex items-center space-x-2">
+                  <RadioGroupItem value="massachusetts" id="massachusetts" />
+                  <Label htmlFor="massachusetts" className="font-normal">Lexington, Massachusetts (June 22, 10am-4pm EST)</Label>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <RadioGroupItem value="minnesota" id="minnesota" />
+                  <Label htmlFor="minnesota" className="font-normal">Duluth/Cotton, Minnesota (June 22, 9am-3pm CST)</Label>
+                </div>
+              </div>
+            </RadioGroup>
+          </div>
+          
+          <Label className="text-base font-medium mb-2 block">Attendance Type</Label>
           <RadioGroup defaultValue="in-person">
             <div className="flex flex-col space-y-3">
               <div className="flex items-center space-x-2">
@@ -66,6 +84,7 @@ const RegistrationForm: React.FC = () => {
             <li>• Registration is free during this testing phase</li>
             <li>• You'll receive a confirmation email with your registration ID</li>
             <li>• Your dietary needs & allergies will be recorded</li>
+            <li>• Location preference (Massachusetts or Minnesota) will be recorded</li>
             <li>• This is for testing purposes only - pricing will be updated later</li>
           </ul>
         </div>
