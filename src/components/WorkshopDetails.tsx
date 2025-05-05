@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Calendar, Clock, MapPin, Users, Globe, Award, Leaf, BookOpen, Palette, Heart } from "lucide-react";
+import { Calendar, Clock, MapPin, Users, Umbrella, Leaf, BookOpen, Palette, Heart } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
 interface ScheduleItemProps {
@@ -60,8 +60,8 @@ const WorkshopDetails: React.FC = () => {
                 <div>
                   <h4 className="font-bold">Locations</h4>
                   <p className="font-medium text-foreground mt-1">Massachusetts Location:</p>
-                  <p className="text-muted-foreground">Lexington Community Center</p>
-                  <p className="text-muted-foreground mb-2">Lexington, MA</p>
+                  <p className="text-muted-foreground">Five Fields Common Land</p>
+                  <p className="text-muted-foreground mb-2">21 Barberry Road, Lexington, MA 02421</p>
                   
                   <p className="font-medium text-foreground">Minnesota Location:</p>
                   <p className="text-muted-foreground">Duluth/Cotton Nature Center</p>
@@ -70,10 +70,10 @@ const WorkshopDetails: React.FC = () => {
               </div>
               
               <div className="flex items-start gap-4">
-                <Globe className="h-6 w-6 text-primary-500 mt-0.5" />
+                <Umbrella className="h-6 w-6 text-primary-500 mt-0.5" />
                 <div>
-                  <h4 className="font-bold">Virtual Option</h4>
-                  <p className="text-muted-foreground">Live streaming available with interactive elements</p>
+                  <h4 className="font-bold">Weather Preparedness</h4>
+                  <p className="text-muted-foreground">Participants should come prepared with weather-appropriate clothing (raincoats, umbrellas, or layers). In case of rain, the workshop will continue outdoors. A small weather tent will be available for art-making and surveys. For extreme weather (thunder/lightning), we'll relocate to a nearby shelter until it's safe to resume.</p>
                 </div>
               </div>
               
@@ -84,14 +84,6 @@ const WorkshopDetails: React.FC = () => {
                   <p className="text-muted-foreground">Local Leaders, Educators, Community Organizers, and anyone interested in relational growth and ecological connection</p>
                 </div>
               </div>
-              
-              <div className="flex items-start gap-4">
-                <Award className="h-6 w-6 text-primary-500 mt-0.5" />
-                <div>
-                  <h4 className="font-bold">Certification</h4>
-                  <p className="text-muted-foreground">6 Continuing Education Credits available</p>
-                </div>
-              </div>
             </div>
           </div>
           
@@ -100,10 +92,10 @@ const WorkshopDetails: React.FC = () => {
             
             <div className="flex items-center gap-3 mb-5">
               <Leaf className="h-5 w-5 text-primary-500" />
-              <h4 className="font-bold text-lg">Forest Bathing & Sensory Immersion</h4>
+              <h4 className="font-bold text-lg">Elemental Exploration</h4>
             </div>
             <p className="text-muted-foreground mb-6 pl-8">
-              Experience guided forest bathing and sensory ecology exercises, fostering a deep, personal connection with the natural environment.
+              Journey through five elements—air, water, earth, fire, and ether—with guided practices that foster deep connection to nature and community through the lens of Relational-Cultural Theory.
             </p>
             
             <div className="flex items-center gap-3 mb-5">
@@ -116,10 +108,10 @@ const WorkshopDetails: React.FC = () => {
             
             <div className="flex items-center gap-3 mb-5">
               <Palette className="h-5 w-5 text-primary-500" />
-              <h4 className="font-bold text-lg">Hands-On Land Stewardship</h4>
+              <h4 className="font-bold text-lg">Creative Expression & Mindful Practice</h4>
             </div>
             <p className="text-muted-foreground mb-6 pl-8">
-              Engage in interactive land projects like planting native species or creating pollinator gardens, while discussing how caring for land mirrors caring for one another.
+              Engage in breathwork, movement exercises, forest bathing, creative arts, and reflective practices that deepen your relationship with yourself, others, and the natural world.
             </p>
             
             <div className="flex items-center gap-3 mb-5">
@@ -137,57 +129,63 @@ const WorkshopDetails: React.FC = () => {
           
           <div className="space-y-2">
             <ScheduleItem 
-              time="9:00 AM - 9:30 AM" 
+              time="10:00 AM - 10:45 AM EST / 9:00 AM - 9:45 AM CST" 
               title="Opening Circle & Intention Setting" 
-              description="Begin with an interactive welcome where each participant shares their personal connection to nature, followed by setting intentions for the day."
+              description="Begin with a storytelling circle to foster connection, establish a relational baseline, and promote relational safety among participants."
             />
             
             <ScheduleItem 
-              time="9:30 AM - 10:30 AM" 
-              title="Forest Bathing & Sensory Immersion" 
-              description="Take a slow, mindful walk through nature with guided prompts to notice subtle sounds, textures, and smells—drawing on indigenous ecological knowledge."
-            />
-            
-            <Separator className="my-4" />
-            
-            <ScheduleItem 
-              time="10:45 AM - 12:00 PM" 
-              title="Storytelling & Relational Reflection" 
-              description="Share personal experiences in small groups and create visual 'life maps' that highlight the relationships—both human and ecological—that have shaped your journey."
-            />
-            
-            <ScheduleItem 
-              time="12:00 PM - 1:00 PM" 
-              title="Sustainable Lunch & Informal Connection" 
-              description="Enjoy a locally sourced, sustainable meal served outdoors when possible, with communal tables to encourage conversation."
+              time="10:45 AM - 11:30 AM EST / 9:45 AM - 10:30 AM CST" 
+              title="Air Element" 
+              description="Engage in breathwork exercises and storytelling to connect with the air element and explore its relationship to our lives and communities."
             />
             
             <Separator className="my-4" />
             
             <ScheduleItem 
-              time="1:00 PM - 2:30 PM" 
-              title="Hands-On Land Stewardship" 
-              description="Engage in activities such as planting native species or creating a small pollinator garden, while discussing how caring for the land mirrors caring for one another."
+              time="11:30 AM - 12:15 PM EST / 10:30 AM - 11:15 AM CST" 
+              title="Water Element" 
+              description="Move towards a body of water for movement exercises including mirroring and paired walking that encourage flow states and connection."
             />
             
             <ScheduleItem 
-              time="2:45 PM - 4:00 PM" 
-              title="Sensory Ecology Workshop & Eco-Art Expression" 
-              description="Experience a silent nature walk focused on deeper sensory observation, followed by creating art that transforms your observations into creative expressions."
+              time="12:15 PM - 1:00 PM EST / 11:15 AM - 12:00 PM CST" 
+              title="Lunch Break" 
+              description="Enjoy a locally sourced, sustainable meal while connecting with fellow participants in an informal setting."
             />
             
             <Separator className="my-4" />
             
             <ScheduleItem 
-              time="4:00 PM - 4:45 PM" 
-              title="Community Storytelling & the H.O.M.E. Narrative" 
-              description="Interview each other in pairs or small groups, capturing stories about personal encounters with environmental change and mutual care."
+              time="1:00 PM - 1:45 PM EST / 12:00 PM - 12:45 PM CST" 
+              title="Earth Element" 
+              description="Participate in a forest bathing walk coupled with grounding practices like barefoot walking to deepen your connection with the earth."
             />
             
             <ScheduleItem 
-              time="4:45 PM - 5:00 PM" 
+              time="1:45 PM - 2:30 PM EST / 12:45 PM - 1:30 PM CST" 
+              title="Fire Element" 
+              description="Gather around a bonfire (or candles if weather is not suitable) for creative expression through coloring, drawing, or other artistic activities."
+            />
+            
+            <Separator className="my-4" />
+            
+            <ScheduleItem 
+              time="2:30 PM - 2:45 PM EST / 1:30 PM - 1:45 PM CST" 
+              title="Break" 
+              description="A short break to refresh and prepare for the final element."
+            />
+            
+            <ScheduleItem 
+              time="2:45 PM - 3:30 PM EST / 1:45 PM - 2:30 PM CST" 
+              title="Ether Element" 
+              description="Engage in quiet reflection time with access to relevant books for inspiration and journaling, beginning with a reading from 'Into the Ether' by Kate Banks."
+            />
+            
+            <ScheduleItem 
+              time="3:30 PM - 4:00 PM EST / 2:30 PM - 3:00 PM CST" 
               title="Commitment Ritual & Closing Circle" 
-              description="Create personal action plans and participate in a ritual sharing where each person contributes to a collective display symbolizing our shared commitment."
+              description="Create personal action plans, participate in a closing ritual, and complete the post-workshop survey to reflect on your experience."
             />
           </div>
         </div>

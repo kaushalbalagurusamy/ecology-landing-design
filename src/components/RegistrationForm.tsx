@@ -39,7 +39,7 @@ const RegistrationForm: React.FC = () => {
               <div className="flex flex-col space-y-3">
                 <div className="flex items-center space-x-2">
                   <RadioGroupItem value="massachusetts" id="massachusetts" />
-                  <Label htmlFor="massachusetts" className="font-normal">Lexington, Massachusetts (June 22, 10am-4pm EST)</Label>
+                  <Label htmlFor="massachusetts" className="font-normal">Five Fields Common Land, Lexington, Massachusetts (June 22, 10am-4pm EST)</Label>
                 </div>
                 <div className="flex items-center space-x-2">
                   <RadioGroupItem value="minnesota" id="minnesota" />
@@ -55,10 +55,6 @@ const RegistrationForm: React.FC = () => {
               <div className="flex items-center space-x-2">
                 <RadioGroupItem value="in-person" id="in-person" />
                 <Label htmlFor="in-person" className="font-normal">In-Person (Testing - Free)</Label>
-              </div>
-              <div className="flex items-center space-x-2">
-                <RadioGroupItem value="virtual" id="virtual" />
-                <Label htmlFor="virtual" className="font-normal">Virtual (Testing - Free)</Label>
               </div>
               <div className="flex items-center space-x-2">
                 <RadioGroupItem value="student" id="student" />
@@ -82,6 +78,7 @@ const RegistrationForm: React.FC = () => {
           <h4 className="font-medium mb-2">Test Registration Information</h4>
           <ul className="text-sm space-y-2">
             <li>• Registration is free during this testing phase</li>
+            <li>• You'll need to bring weather-appropriate clothing (rain gear, layers, etc.)</li>
             <li>• You'll receive a confirmation email with your registration ID</li>
             <li>• Your dietary needs & allergies will be recorded</li>
             <li>• Location preference (Massachusetts or Minnesota) will be recorded</li>

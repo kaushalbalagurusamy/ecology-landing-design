@@ -1,4 +1,3 @@
-
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
@@ -13,14 +12,14 @@ const Index: React.FC = () => {
   const hostsData = [
     {
       name: "Jayme Banks, B.A.",
-      title: "Relational Cultural Theory Specialist",
-      bio: "Jayme Banks is a leading voice in Relational Cultural Theory, with extensive experience integrating RCT into education, community development, and leadership. Her work focuses on creating authentic connections across diverse cultural contexts to foster growth and resilience.",
+      title: "Workshop Facilitator",
+      bio: "Jayme Banks is a recent graduate of the University of Pennsylvania, where she graduated with Honors in Psychology. She worked as a Clinical Research Coordinator for 3 years at the Massachusetts General Hospital and Beth Israel Deaconess Medical Center in the Neurology Department, specializing in research on meditation and brain health using electroencephalography (EEG). She is currently pursuing a Masters degree from Unity Environmental University in Environmental Studies and Sustainability, and she is developing this workshop alongside her collaborator, Connie Gunderson, for her senior year Capstone project.",
       imageSrc: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
     },
     {
       name: "Connie Gunderson, PhD, LISW",
-      title: "Relational Ecology Practitioner & Educator",
-      bio: "Dr. Connie Gunderson has devoted her career to exploring the intersection of environmental ethics, ecological consciousness, and social justice. Her innovative work bridges theoretical frameworks with practical applications for healing both human communities and the natural world.",
+      title: "RCT Ecology Curriculum Developer",
+      bio: "Dr. Connie Gunderson is a leader in the Relational-Cultural Theory world and community, and has developed the RCT Ecology curriculum, which extends the values and principles of relational-cultural theory to include the natural world. She is also the developer of the RCT Certification program, which offers training and certification for clinicians and therapists interested in applying the RCT model of human growth and development. She is affiliated with the College of St. Scholastica in Minnesota.",
       imageSrc: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
     }
   ];
@@ -103,15 +102,7 @@ const Index: React.FC = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                       </svg>
                     </span>
-                    <span>Certificate of completion</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block bg-primary-500 rounded-full p-1 mr-2 mt-1">
-                      <svg className="h-3 w-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                    </span>
-                    <span>6 Continuing Education Credits</span>
+                    <span>Workshop completion acknowledgment</span>
                   </li>
                   <li className="flex items-start">
                     <span className="inline-block bg-primary-500 rounded-full p-1 mr-2 mt-1">

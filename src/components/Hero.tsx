@@ -17,9 +17,9 @@ const Hero: React.FC = () => {
           </span>
           
           <h1 className="heading-xl mb-6">
-            <span className="block text-primary-500">Relational Ecology,</span>
-            <span className="block">Sustainability, and Resiliency Through</span>
-            <span className="block">the Lens of Relational-Cultural Theory</span>
+            <span className="block text-primary-500">Relational Ecology, Sustainability, and Resiliency</span>
+            <span className="block">Through the Lens of</span>
+            <span className="block">Relational-Cultural Theory</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-3 max-w-2xl mx-auto">
