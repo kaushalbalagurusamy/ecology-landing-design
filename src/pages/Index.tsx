@@ -1,3 +1,4 @@
+
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
@@ -5,7 +6,6 @@ import AboutSection from "@/components/AboutSection";
 import WorkshopDetails from "@/components/WorkshopDetails";
 import SpeakerCard from "@/components/SpeakerCard";
 import RegistrationForm from "@/components/RegistrationForm";
-import BirdPhotography from "@/components/BirdPhotography";
 import Footer from "@/components/Footer";
 import { Separator } from "@/components/ui/separator";
 
@@ -124,9 +124,6 @@ const Index: React.FC = () => {
           </div>
         </div>
       </section>
-
-      {/* Bird Photography Section */}
-      <BirdPhotography />
 
       <Footer />
     </div>
