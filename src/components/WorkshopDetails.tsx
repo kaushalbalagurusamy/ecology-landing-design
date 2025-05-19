@@ -129,15 +129,15 @@ const WorkshopDetails: React.FC = () => {
           
           <div className="space-y-2">
             <ScheduleItem 
-              time="10:00 AM - 10:45 AM EST / 9:00 AM - 9:45 AM CST" 
+              time="10:00 AM - 10:30 AM EST / 9:00 AM - 9:30 AM CST" 
               title="Opening Circle & Intention Setting" 
-              description="Begin with a storytelling circle to foster connection, establish a relational baseline, and promote relational safety among participants."
+              description="We will take a 5-10 minute pre-workshop survey on our baseline relational well-being. This introduction will cover RCT, relational ecology, sustainability, and resiliency concepts, followed by discussing our goals and intentions for the workshop."
             />
             
             <ScheduleItem 
-              time="10:45 AM - 11:30 AM EST / 9:45 AM - 10:30 AM CST" 
+              time="10:30 AM - 11:30 AM EST / 9:30 AM - 10:30 AM CST" 
               title="Air Element" 
-              description="Engage in breathwork exercises and storytelling to connect with the air element and explore its relationship to our lives and communities."
+              description="Practice Isha Kriya, a guided meditation and breathwork exercise, followed by watching a video and engaging in a storytelling circle to discuss our reflections on the video."
             />
             
             <Separator className="my-4" />
@@ -145,47 +145,47 @@ const WorkshopDetails: React.FC = () => {
             <ScheduleItem 
               time="11:30 AM - 12:15 PM EST / 10:30 AM - 11:15 AM CST" 
               title="Water Element" 
-              description="Move towards a body of water for movement exercises including mirroring and paired walking that encourage flow states and connection."
+              description="Move to a body of water for a reciprocity invitation involving poetry and dance. Engage in forest bathing activities like gazing at water and connecting with beings you're curious about to deepen your connection with the water element."
             />
             
             <ScheduleItem 
               time="12:15 PM - 1:00 PM EST / 11:15 AM - 12:00 PM CST" 
               title="Lunch Break" 
-              description="Enjoy a locally sourced, sustainable meal while connecting with fellow participants in an informal setting."
+              description="Enjoy a regenerative organic and vegan meal of pasta with peppers and olive oil or tomato sauce, accompanied by a side salad."
             />
             
             <Separator className="my-4" />
             
             <ScheduleItem 
-              time="1:00 PM - 1:45 PM EST / 12:00 PM - 12:45 PM CST" 
+              time="1:00 PM - 2:00 PM EST / 12:00 PM - 1:00 PM CST" 
               title="Earth Element" 
-              description="Participate in a forest bathing walk coupled with grounding practices like barefoot walking to deepen your connection with the earth."
+              description="Participate in a forest bathing walk that deepens your connection with the earth through mindful presence and sensory awareness."
             />
             
             <ScheduleItem 
-              time="1:45 PM - 2:30 PM EST / 12:45 PM - 1:30 PM CST" 
+              time="2:00 PM - 2:45 PM EST / 1:00 PM - 1:45 PM CST" 
               title="Fire Element" 
-              description="Gather around a bonfire (or candles if weather is not suitable) for creative expression through coloring, drawing, or other artistic activities."
+              description="Gather around candles for a discussion on creative solutions to sustainability and resiliency challenges. Express these solutions or prior workshop experiences through coloring or drawing activities."
             />
             
             <Separator className="my-4" />
             
             <ScheduleItem 
-              time="2:30 PM - 2:45 PM EST / 1:30 PM - 1:45 PM CST" 
+              time="2:45 PM - 3:00 PM EST / 1:45 PM - 2:00 PM CST" 
               title="Break" 
               description="A short break to refresh and prepare for the final element."
             />
             
             <ScheduleItem 
-              time="2:45 PM - 3:30 PM EST / 1:45 PM - 2:30 PM CST" 
+              time="3:00 PM - 3:30 PM EST / 2:00 PM - 2:30 PM CST" 
               title="Ether Element" 
-              description="Engage in quiet reflection time with access to relevant books for inspiration and journaling, beginning with a reading from 'Into the Ether' by Kate Banks."
+              description="Create personal action plans during quiet reflection time with access to relevant books for inspiration and journaling, beginning with a reading from 'Into the Ether' by Kate Banks."
             />
             
             <ScheduleItem 
               time="3:30 PM - 4:00 PM EST / 2:30 PM - 3:00 PM CST" 
               title="Commitment Ritual & Closing Circle" 
-              description="Create personal action plans, participate in a closing ritual, and complete the post-workshop survey to reflect on your experience."
+              description="Create a group action plan based on shared collective ideas to foster action beyond the workshop. Participate in a closing ritual offering a gift of reciprocity to the elements and complete a closing reflection survey on relational well-being."
             />
           </div>
         </div>
