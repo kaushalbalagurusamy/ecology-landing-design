@@ -1,59 +1,73 @@
 
 import React from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { 
-  Carousel, 
-  CarouselContent, 
-  CarouselItem, 
-  CarouselNext, 
-  CarouselPrevious 
-} from "@/components/ui/carousel";
 import { Card } from "@/components/ui/card";
 
 const BirdPhotography: React.FC = () => {
-  // Sample bird photos - replace with actual uploaded bird photos
+  // Using the uploaded bird photos with proper locations and species names
   const birdPhotos = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1552728089-57bdde30beb3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      src: "/lovable-uploads/00fa7101-1999-44ae-becf-6db71ab85b94.png",
       location: "Five Fields, Lexington, MA",
       year: "2023",
-      title: "Eastern Bluebird"
+      title: "Mourning Dove"
     },
     {
       id: 2,
-      src: "https://images.unsplash.com/photo-1591608971358-f93643d31f43?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      location: "Berkeley, California",
-      year: "2024",
-      title: "Ruby-throated Hummingbird"
+      src: "/lovable-uploads/23b506a4-221a-4a24-a8b3-2ce3a4249812.png",
+      location: "Five Fields, Lexington, MA",
+      year: "2023",
+      title: "Mourning Dove"
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      location: "Lake Tahoe",
-      year: "2022",
-      title: "Stellar's Jay"
-    },
-    {
-      id: 4,
-      src: "https://images.unsplash.com/photo-1588943211346-0908a1fb0b01?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      location: "Florida",
-      year: "2025",
-      title: "Roseate Spoonbill"
-    },
-    {
-      id: 5,
-      src: "https://images.unsplash.com/photo-1480044965905-02098d419e96?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      src: "/lovable-uploads/efca8acd-10f4-4382-a0eb-6b0976832440.png",
       location: "Five Fields, Lexington, MA",
       year: "2023",
       title: "Northern Cardinal"
     },
     {
+      id: 4,
+      src: "/lovable-uploads/e9c0e106-16f9-4fcf-a88f-98ce4e2a82d8.png",
+      location: "Five Fields, Lexington, MA",
+      year: "2023",
+      title: "American Robin"
+    },
+    {
+      id: 5,
+      src: "/lovable-uploads/df7ba847-190c-4ea0-adf0-a6192ee500d0.png",
+      location: "Five Fields, Lexington, MA",
+      year: "2023",
+      title: "Blue Jay"
+    },
+    {
       id: 6,
-      src: "https://images.unsplash.com/photo-1555167725-91b873c88a9e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      location: "Berkeley, California",
-      year: "2024",
-      title: "Great Blue Heron"
+      src: "/lovable-uploads/41958124-5d8d-4bdb-b850-4b4d5e803885.png",
+      location: "Five Fields, Lexington, MA",
+      year: "2023",
+      title: "Mourning Dove"
+    },
+    {
+      id: 7,
+      src: "/lovable-uploads/8e0d743b-58f5-44da-a897-ae980a6031fa.png",
+      location: "Five Fields, Lexington, MA",
+      year: "2023",
+      title: "Red-bellied Woodpecker"
+    },
+    {
+      id: 8,
+      src: "/lovable-uploads/ee62ec04-18e6-4afe-a3c4-ade6e2d71e6d.png",
+      location: "Florida",
+      year: "2025",
+      title: "Wild Turkey"
+    },
+    {
+      id: 9,
+      src: "/lovable-uploads/a8259caf-bc66-4719-ae4c-29f8cd2d6235.png",
+      location: "Lake Tahoe",
+      year: "2022",
+      title: "Red-tailed Hawk"
     }
   ];
 
@@ -66,7 +80,7 @@ const BirdPhotography: React.FC = () => {
   };
 
   return (
-    <section id="bird-photography" className="section-padding bg-gradient-to-b from-accent-50 to-green-50">
+    <section id="bird-photography" className="section-padding bg-gradient-to-b from-green-50 to-emerald-50">
       <div className="container-custom">
         <div className="max-w-3xl mx-auto text-center mb-12">
           <h2 className="heading-lg mb-6">Bird Photography</h2>
