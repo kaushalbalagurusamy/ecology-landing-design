@@ -87,7 +87,7 @@ const Index: React.FC = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                       </svg>
                     </span>
-                    <span>All workshop materials and handouts</span>
+                    <span>Access to RCT and Relational Ecology Resources</span>
                   </li>
                   <li className="flex items-start">
                     <span className="inline-block bg-primary-500 rounded-full p-1 mr-2 mt-1">
@@ -95,7 +95,7 @@ const Index: React.FC = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                       </svg>
                     </span>
-                    <span>Organic, locally-sourced lunch and refreshments</span>
+                    <span>Access to PDF of "Your Guide to Forest Bathing" by M. Amos Clifford</span>
                   </li>
                   <li className="flex items-start">
                     <span className="inline-block bg-primary-500 rounded-full p-1 mr-2 mt-1">
@@ -103,15 +103,7 @@ const Index: React.FC = () => {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
                       </svg>
                     </span>
-                    <span>Workshop completion acknowledgment</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block bg-primary-500 rounded-full p-1 mr-2 mt-1">
-                      <svg className="h-3 w-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                    </span>
-                    <span>Access to workshop materials online</span>
+                    <span>Organic and regenerative vegan lunch</span>
                   </li>
                 </ul>
                 
