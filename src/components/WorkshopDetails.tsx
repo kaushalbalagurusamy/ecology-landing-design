@@ -201,12 +201,12 @@ const WorkshopDetails: React.FC = () => {
             
             <div className="bg-white/80 p-6 rounded-lg shadow-sm">
               <h4 className="font-bold text-lg text-primary-700 mb-3">Collective Narrative</h4>
-              <p>Through storytelling and creative expression, a shared narrative of ecological and relational interdependence is formed.</p>
+              <p>Through creative expression and storytelling, participants develop both personal and group action plans for sustainability and resiliency in their lives and communities.</p>
             </div>
             
             <div className="bg-white/80 p-6 rounded-lg shadow-sm">
               <h4 className="font-bold text-lg text-primary-700 mb-3">Actionable Commitments</h4>
-              <p>The commitment ritual ensures that insights translate into tangible, ongoing practices that support ecological stewardship and mutual care.</p>
+              <p>The commitment ritual ensures that insights translate into tangible, ongoing practices that honor our reciprocal relationship with the natural world and foster mutual care.</p>
             </div>
           </div>
         </div>

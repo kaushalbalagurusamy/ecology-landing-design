@@ -81,13 +81,13 @@ Phone: (617) 966-9096
             <h3 className="font-bold text-lg mb-4">Resources & Contact</h3>
             <ul className="space-y-3 mb-5">
               <li>
-                <a href="#" className="hover:text-accent-300 transition-colors">Relational Cultural Theory</a>
+                <a href="https://growthinconnection.org" target="_blank" rel="noopener noreferrer" className="hover:text-accent-300 transition-colors">Relational Cultural Theory</a>
               </li>
               <li>
-                <a href="#" className="hover:text-accent-300 transition-colors">Relational Ecology Resources</a>
+                <a href="https://aesop-youngacademics.net/blog/relational-ecology-rethinking-relationships-between-man-and-the-natural-environment" target="_blank" rel="noopener noreferrer" className="hover:text-accent-300 transition-colors">Relational Ecology</a>
               </li>
               <li>
-                <a href="#" className="hover:text-accent-300 transition-colors">Recommended Books</a>
+                <a href="https://archive.org/details/amos-clifford-m.-your-guide-to-forest-bathing.-experience-the-healing-power-of-nature-2018/page/59/mode/2up" target="_blank" rel="noopener noreferrer" className="hover:text-accent-300 transition-colors">Your Guide To Forest Bathing</a>
               </li>
             </ul>
 
