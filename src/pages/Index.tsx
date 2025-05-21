@@ -1,4 +1,3 @@
-
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
@@ -68,59 +67,8 @@ const Index: React.FC = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-5 gap-8">
-            <div className="md:col-span-2">
-              <div className="bg-white rounded-lg shadow-lg p-6 md:p-8 h-full">
-                <h3 className="heading-md mb-4">What's Included</h3>
-                <ul className="space-y-4">
-                  <li className="flex items-start">
-                    <span className="inline-block bg-primary-500 rounded-full p-1 mr-2 mt-1">
-                      <svg className="h-3 w-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                    </span>
-                    <span>A full day of immersive workshop experience</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block bg-primary-500 rounded-full p-1 mr-2 mt-1">
-                      <svg className="h-3 w-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                    </span>
-                    <span>Access to RCT and Relational Ecology Resources</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block bg-primary-500 rounded-full p-1 mr-2 mt-1">
-                      <svg className="h-3 w-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                    </span>
-                    <span>Access to PDF of "Your Guide to Forest Bathing" by M. Amos Clifford</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block bg-primary-500 rounded-full p-1 mr-2 mt-1">
-                      <svg className="h-3 w-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path>
-                      </svg>
-                    </span>
-                    <span>Organic and regenerative vegan lunch</span>
-                  </li>
-                </ul>
-                
-                <Separator className="my-8" />
-                
-                <div className="space-y-4">
-                  <p className="font-medium">Have questions before registering?</p>
-                  <p className="text-sm text-muted-foreground">
-                    Contact us at <a href="mailto:jaymeb@sas.upenn.edu" className="text-primary-500 hover:underline">jaymeb@sas.upenn.edu</a> or call <a href="tel:+16179669096" className="text-primary-500 hover:underline">(617) 966-9096</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="md:col-span-3">
-              <RegistrationForm />
-            </div>
+          <div className="max-w-2xl mx-auto">
+            <RegistrationForm />
           </div>
         </div>
       </section>
