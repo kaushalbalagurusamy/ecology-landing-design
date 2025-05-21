@@ -18,8 +18,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description, def
     <h3 className="text-xl font-bold mb-2">{title}</h3>
     {definition && (
       <div className="mb-3">
-        <p className="text-muted-foreground italic">{definition}</p>
-        {citation && <p className="text-muted-foreground mt-1">{citation}</p>}
+        <p className="text-muted-foreground">{definition} {citation && <span>{citation}</span>}.</p>
       </div>
     )}
     <p className="text-muted-foreground">{description}</p>
@@ -41,38 +40,38 @@ const AboutSection: React.FC = () => {
           <FeatureCard 
             icon={<HeartHandshake className="h-8 w-8 text-primary-500" />}
             title="Relational-Cultural Theory" 
-            definition="A model of psychological development emphasizing that human growth and wellbeing depend on forming mutually empathic, authentic, and growth-fostering connections."
+            definition="A model of psychological development emphasizing that human growth and wellbeing depend on forming mutually empathic, authentic, and growth-fostering connections"
             citation="(Jordan, 2008)"
             description="Explore how RCT can be applied to ecological awareness and understanding, creating pathways for authentic connections and mutual empathy."
           />
           <FeatureCard 
             icon={<Leaf className="h-8 w-8 text-primary-500" />}
             title="Relational Ecology" 
-            definition="An approach that recognizes the inherent interconnectedness and interdependence between humans and all living systems, emphasizing relationship as the foundation of ecological health."
+            definition="An approach that recognizes the inherent interconnectedness and interdependence between humans and all living systems, emphasizing relationship as the foundation of ecological health"
             citation="(Banks, 2025)"
             description="Discover how relational ecology connects to relational and ecological movement, transforming our relationship with nature and each other."
           />
           <FeatureCard 
             icon={<Shield className="h-8 w-8 text-primary-500" />}
             title="Resiliency" 
-            definition="The capacity of individuals, communities, and ecosystems to maintain core functions and adapt to change while retaining their essential identity and relationships."
+            definition="The capacity of individuals, communities, and ecosystems to maintain core functions and adapt to change while retaining their essential identity and relationships"
             citation="(Banks, 2025)"
             description="Learn how Relational-Cultural Theory can inform and strengthen resiliency initiatives in both human communities and natural systems."
           />
           <FeatureCard 
             icon={<Recycle className="h-8 w-8 text-primary-500" />}
             title="Sustainability" 
-            definition="The practice of meeting present needs while ensuring future generations can thrive, through balanced relationships between ecological, social, and economic systems."
+            definition="The practice of meeting present needs while ensuring future generations can thrive, through balanced relationships between ecological, social, and economic systems"
             citation="(Banks, 2025)"
             description="Understand how RCT principles can inform sustainability initiatives and create lasting positive impacts across interconnected systems."
           />
         </div>
 
-        {/* Citations section moved here, directly under the four definitions */}
+        {/* Citations section directly under the four definitions */}
         <div className="bg-white p-6 rounded-lg shadow-md mb-12">
           <h4 className="font-medium mb-3">Citations</h4>
           <p className="text-muted-foreground">
-            Jordan, J. V. (2008). Recent Developments in Relational-Cultural Theory. Women & Therapy, 31(2–4), 1–4. https://doi.org/10.1080/02703140802145540
+            Jordan, J. V. (2008). Recent Developments in Relational-Cultural Theory. <em>Women & Therapy, 31</em>(2–4), 1–4. https://doi.org/10.1080/02703140802145540
           </p>
         </div>
 
