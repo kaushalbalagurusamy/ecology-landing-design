@@ -80,11 +80,16 @@ const AboutSection: React.FC = () => {
         <div className="bg-accent-100 rounded-xl p-8 md:p-12">
           <div className="md:flex items-center gap-8">
             <div className="md:w-1/2 mb-8 md:mb-0">
-              <img 
-                src="https://images.unsplash.com/photo-1472396961693-142e6e269027" 
-                alt="Deer in nature representing relational ecology" 
-                className="rounded-lg w-full h-80 object-cover"
-              />
+              <div className="space-y-2">
+                <img 
+                  src="/lovable-uploads/9869df99-007b-41cb-b0e2-807a1f3a9b10.png" 
+                  alt="Five Fields Pond in Lexington, Massachusetts" 
+                  className="rounded-lg w-full h-80 object-cover"
+                />
+                <p className="text-xs text-muted-foreground italic text-center">
+                  Five Fields Pond, Lexington, Massachusetts. Photo: Jayme Banks, 2023.
+                </p>
+              </div>
             </div>
             <div className="md:w-1/2">
               <h3 className="heading-md mb-4">Why This Workshop Matters</h3>
