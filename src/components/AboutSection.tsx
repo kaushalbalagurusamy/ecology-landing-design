@@ -19,7 +19,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description, def
     {definition && (
       <div className="mb-3">
         <p className="text-muted-foreground italic">{definition}</p>
-        {citation && <p className="text-xs text-muted-foreground mt-1">{citation}</p>}
+        {citation && <p className="text-muted-foreground mt-1">{citation}</p>}
       </div>
     )}
     <p className="text-muted-foreground">{description}</p>
@@ -68,6 +68,14 @@ const AboutSection: React.FC = () => {
           />
         </div>
 
+        {/* Citations section moved here, directly under the four definitions */}
+        <div className="bg-white p-6 rounded-lg shadow-md mb-12">
+          <h4 className="font-medium mb-3">Citations</h4>
+          <p className="text-muted-foreground">
+            Jordan, J. V. (2008). Recent Developments in Relational-Cultural Theory. Women & Therapy, 31(2–4), 1–4. https://doi.org/10.1080/02703140802145540
+          </p>
+        </div>
+
         <div className="bg-accent-100 rounded-xl p-8 md:p-12">
           <div className="md:flex items-center gap-8">
             <div className="md:w-1/2 mb-8 md:mb-0">
@@ -82,15 +90,9 @@ const AboutSection: React.FC = () => {
               <p className="mb-4">
                 In a world experiencing both social disconnection and ecological crisis, we need frameworks that heal the perceived separation between humans and the natural world. This workshop provides both theory and practice for those seeking to foster deeper connections.
               </p>
-              <p className="mb-6">
+              <p>
                 Whether you work as a local leader, educator, or community organizer, understanding the parallels between human relationships and ecological systems offers powerful tools for transformation.
               </p>
-              <div className="bg-white p-4 rounded-lg">
-                <h4 className="font-medium mb-2">Citation</h4>
-                <p className="text-sm text-muted-foreground">
-                  Jordan, J. V. (2008). Recent Developments in Relational-Cultural Theory. Women & Therapy, 31(2–4), 1–4. https://doi.org/10.1080/02703140802145540
-                </p>
-              </div>
             </div>
           </div>
         </div>
