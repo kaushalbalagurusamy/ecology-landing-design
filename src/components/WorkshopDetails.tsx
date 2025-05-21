@@ -51,7 +51,7 @@ const WorkshopDetails: React.FC = () => {
                 <div>
                   <h4 className="font-bold">Time</h4>
                   <p className="text-muted-foreground">Massachusetts: 10:00 AM - 4:00 PM (EST)</p>
-                  <p className="text-muted-foreground">Minnesota: 9:00 AM - 3:00 PM (CST)</p>
+                  <p className="text-muted-foreground">Minnesota: 10:00 AM - 4:00 PM (CST)</p>
                 </div>
               </div>
               
@@ -64,8 +64,8 @@ const WorkshopDetails: React.FC = () => {
                   <p className="text-muted-foreground mb-2">21 Barberry Road, Lexington, MA 02421</p>
                   
                   <p className="font-medium text-foreground">Minnesota Location:</p>
-                  <p className="text-muted-foreground">Duluth/Cotton Nature Center</p>
-                  <p className="text-muted-foreground">Duluth/Cotton, MN</p>
+                  <p className="text-muted-foreground">Afternro</p>
+                  <p className="text-muted-foreground">510 West College Street, Duluth, Minnesota 55811</p>
                 </div>
               </div>
               
@@ -129,13 +129,13 @@ const WorkshopDetails: React.FC = () => {
           
           <div className="space-y-2">
             <ScheduleItem 
-              time="10:00 AM - 10:30 AM EST / 9:00 AM - 9:30 AM CST" 
+              time="10:00 AM - 10:30 AM EST / 10:00 AM - 10:30 AM CST" 
               title="Opening Circle & Intention Setting" 
               description="We will take a 5-10 minute pre-workshop survey on our baseline relational well-being. This introduction will cover RCT, relational ecology, sustainability, and resiliency concepts, followed by discussing our goals and intentions for the workshop."
             />
             
             <ScheduleItem 
-              time="10:30 AM - 11:30 AM EST / 9:30 AM - 10:30 AM CST" 
+              time="10:30 AM - 11:30 AM EST / 10:30 AM - 11:30 AM CST" 
               title="Air Element" 
               description="Practice Isha Kriya, a guided meditation and breathwork exercise, followed by watching a video and engaging in a storytelling circle to discuss our reflections on the video."
             />
@@ -143,13 +143,13 @@ const WorkshopDetails: React.FC = () => {
             <Separator className="my-4" />
             
             <ScheduleItem 
-              time="11:30 AM - 12:15 PM EST / 10:30 AM - 11:15 AM CST" 
+              time="11:30 AM - 12:15 PM EST / 11:30 AM - 12:15 PM CST" 
               title="Water Element" 
               description="Move to a body of water for a reciprocity invitation involving poetry and dance. Engage in forest bathing activities like gazing at water and connecting with beings you're curious about to deepen your connection with the water element."
             />
             
             <ScheduleItem 
-              time="12:15 PM - 1:00 PM EST / 11:15 AM - 12:00 PM CST" 
+              time="12:15 PM - 1:00 PM EST / 12:15 PM - 1:00 PM CST" 
               title="Lunch Break" 
               description="Enjoy a regenerative organic and vegan meal of pasta with peppers and olive oil or tomato sauce, accompanied by a side salad."
             />
@@ -157,13 +157,13 @@ const WorkshopDetails: React.FC = () => {
             <Separator className="my-4" />
             
             <ScheduleItem 
-              time="1:00 PM - 2:00 PM EST / 12:00 PM - 1:00 PM CST" 
+              time="1:00 PM - 2:00 PM EST / 1:00 PM - 2:00 PM CST" 
               title="Earth Element" 
               description="Participate in a forest bathing walk that deepens your connection with the earth through mindful presence and sensory awareness."
             />
             
             <ScheduleItem 
-              time="2:00 PM - 2:45 PM EST / 1:00 PM - 1:45 PM CST" 
+              time="2:00 PM - 2:45 PM EST / 2:00 PM - 2:45 PM CST" 
               title="Fire Element" 
               description="Gather around candles for a discussion on creative solutions to sustainability and resiliency challenges. Express these solutions or prior workshop experiences through coloring or drawing activities."
             />
@@ -171,21 +171,21 @@ const WorkshopDetails: React.FC = () => {
             <Separator className="my-4" />
             
             <ScheduleItem 
-              time="2:45 PM - 3:00 PM EST / 1:45 PM - 2:00 PM CST" 
+              time="2:45 PM - 3:00 PM EST / 2:45 PM - 3:00 PM CST" 
               title="Break" 
               description="A short break to refresh and prepare for the final element."
             />
             
             <ScheduleItem 
-              time="3:00 PM - 3:30 PM EST / 2:00 PM - 2:30 PM CST" 
+              time="3:00 PM - 3:30 PM EST / 3:00 PM - 3:30 PM CST" 
               title="Ether Element" 
-              description="Create personal action plans during quiet reflection time with access to relevant books for inspiration and journaling, beginning with a reading from 'Into the Ether' by Kate Banks."
+              description="Create collaborative personal action plans that revolve around your relationship to another being (such as your spouse, friend, or pet) during quiet reflection time with access to relevant books for inspiration and journaling, beginning with a reading from 'Into the Ether' by Kate Banks."
             />
             
             <ScheduleItem 
-              time="3:30 PM - 4:00 PM EST / 2:30 PM - 3:00 PM CST" 
+              time="3:30 PM - 4:00 PM EST / 3:30 PM - 4:00 PM CST" 
               title="Commitment Ritual & Closing Circle" 
-              description="Create a group action plan based on shared collective ideas to foster action beyond the workshop. Participate in a closing ritual offering a gift of reciprocity to the elements and complete a closing reflection survey on relational well-being."
+              description="Create a group action plan based on shared collective ideas to foster action beyond the workshop in daily living. Participate in a closing ritual offering a gift of reciprocity to the elements and complete a closing reflection survey on relational well-being."
             />
           </div>
         </div>
