@@ -18,7 +18,9 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description, def
     <h3 className="text-xl font-bold mb-2">{title}</h3>
     {definition && (
       <div className="mb-3">
-        <p className="text-muted-foreground">{definition} {citation && <span>{citation}</span>}.</p>
+        <p className="text-muted-foreground">
+          <i>{definition}</i> {citation && <span>{citation}</span>}.
+        </p>
       </div>
     )}
     <p className="text-muted-foreground">{description}</p>
