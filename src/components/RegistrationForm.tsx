@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
@@ -43,7 +42,7 @@ const RegistrationForm: React.FC = () => {
                 </div>
                 <div className="flex items-center space-x-2">
                   <RadioGroupItem value="minnesota" id="minnesota" />
-                  <Label htmlFor="minnesota" className="font-normal">Afternro, 510 West College Street, Duluth, Minnesota 55811 (June 22, 10am-4pm CST)</Label>
+                  <Label htmlFor="minnesota" className="font-normal">Aftenro, 510 West College Street, Duluth, Minnesota 55811 (June 22, 10am-4pm CST)</Label>
                 </div>
               </div>
             </RadioGroup>

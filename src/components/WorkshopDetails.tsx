@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Calendar, Clock, MapPin, Users, Umbrella, Leaf, BookOpen, Palette, Heart } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
@@ -64,7 +63,7 @@ const WorkshopDetails: React.FC = () => {
                   <p className="text-muted-foreground mb-2">21 Barberry Road, Lexington, MA 02421</p>
                   
                   <p className="font-medium text-foreground">Minnesota Location:</p>
-                  <p className="text-muted-foreground">Afternro</p>
+                  <p className="text-muted-foreground">Aftenro</p>
                   <p className="text-muted-foreground">510 West College Street, Duluth, Minnesota 55811</p>
                 </div>
               </div>
