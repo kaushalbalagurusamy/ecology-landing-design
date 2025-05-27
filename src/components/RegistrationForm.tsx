@@ -33,7 +33,7 @@ const RegistrationForm: React.FC = () => {
             <h4 className="font-medium mb-2">Workshop Information</h4>
             <ul className="text-sm space-y-2">
               <li>• Five Fields Common Land, Lexington, Massachusetts (June 22, 10am-4pm EST)</li>
-              <li>• Aftenro, 510 West College Street, Duluth, Minnesota 55811 (June 22, 10am-4pm CST)</li>
+              <li>• Aftenro, 510 West College Street, Duluth, Minnesota 55811 (Date TBD, 10am-4pm CST)</li>
               <li>• You'll need to bring weather-appropriate clothing (rain gear, layers, etc.)</li>
               <li>• Please note any dietary needs or allergies in the registration form</li>
             </ul>
