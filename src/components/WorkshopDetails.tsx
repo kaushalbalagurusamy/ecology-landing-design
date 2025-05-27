@@ -42,7 +42,8 @@ const WorkshopDetails: React.FC = () => {
                   <p className="text-muted-foreground">Massachusetts: June 22, 2025 (Sunday)
 Minnesota: TBD
                 </p>
-                  <p className="text-muted-foreground">Minnesota: TBD</p>
+                  <p className="text-muted-foreground">
+                </p>
                 </div>
               </div>
               
