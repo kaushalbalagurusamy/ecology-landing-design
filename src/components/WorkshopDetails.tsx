@@ -1,25 +1,23 @@
 import React from "react";
 import { Calendar, Clock, MapPin, Users, Umbrella, Leaf, BookOpen, Palette, Heart } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
-
 interface ScheduleItemProps {
   time: string;
   title: string;
   description: string;
 }
-
-const ScheduleItem: React.FC<ScheduleItemProps> = ({ time, title, description }) => (
-  <div className="p-4 border-l-2 border-primary-300 ml-4 relative">
+const ScheduleItem: React.FC<ScheduleItemProps> = ({
+  time,
+  title,
+  description
+}) => <div className="p-4 border-l-2 border-primary-300 ml-4 relative">
     <div className="absolute w-3 h-3 bg-primary-500 rounded-full -left-[7px] top-6"></div>
     <span className="text-sm font-medium text-muted-foreground">{time}</span>
     <h4 className="text-lg font-bold mt-1">{title}</h4>
     <p className="text-muted-foreground mt-1">{description}</p>
-  </div>
-);
-
+  </div>;
 const WorkshopDetails: React.FC = () => {
-  return (
-    <section id="details" className="section-padding bg-white">
+  return <section id="details" className="section-padding bg-white">
       <div className="container-custom">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="heading-lg mb-6">Workshop Details</h2>
@@ -41,7 +39,9 @@ const WorkshopDetails: React.FC = () => {
                 <Calendar className="h-6 w-6 text-primary-500 mt-0.5" />
                 <div>
                   <h4 className="font-bold">Date</h4>
-                  <p className="text-muted-foreground">Massachusetts: June 22, 2025 (Sunday)</p>
+                  <p className="text-muted-foreground">Massachusetts: June 22, 2025 (Sunday)
+Minnesota: TBD
+                </p>
                   <p className="text-muted-foreground">Minnesota: TBD</p>
                 </div>
               </div>
@@ -128,65 +128,29 @@ const WorkshopDetails: React.FC = () => {
           <h3 className="heading-md text-center mb-8">Workshop Schedule</h3>
           
           <div className="space-y-2">
-            <ScheduleItem 
-              time="10:00 AM - 10:30 AM EST/CST" 
-              title="Opening Circle & Intention Setting" 
-              description="We will take a 5-10 minute pre-workshop survey on our baseline relational well-being. This introduction will cover RCT, relational ecology, sustainability, and resiliency concepts, followed by discussing our goals and intentions for the workshop."
-            />
+            <ScheduleItem time="10:00 AM - 10:30 AM EST/CST" title="Opening Circle & Intention Setting" description="We will take a 5-10 minute pre-workshop survey on our baseline relational well-being. This introduction will cover RCT, relational ecology, sustainability, and resiliency concepts, followed by discussing our goals and intentions for the workshop." />
             
-            <ScheduleItem 
-              time="10:30 AM - 11:30 AM EST/CST" 
-              title="Air Element" 
-              description="Practice Isha Kriya, a guided meditation and breathwork exercise, followed by watching a video and engaging in a storytelling circle to discuss our reflections on the video."
-            />
+            <ScheduleItem time="10:30 AM - 11:30 AM EST/CST" title="Air Element" description="Practice Isha Kriya, a guided meditation and breathwork exercise, followed by watching a video and engaging in a storytelling circle to discuss our reflections on the video." />
             
             <Separator className="my-4" />
             
-            <ScheduleItem 
-              time="11:30 AM - 12:15 PM EST/CST" 
-              title="Water Element" 
-              description="Move to a body of water for a reciprocity invitation involving poetry and dance. Engage in forest bathing activities like gazing at water and connecting with beings you're curious about to deepen your connection with the water element."
-            />
+            <ScheduleItem time="11:30 AM - 12:15 PM EST/CST" title="Water Element" description="Move to a body of water for a reciprocity invitation involving poetry and dance. Engage in forest bathing activities like gazing at water and connecting with beings you're curious about to deepen your connection with the water element." />
             
-            <ScheduleItem 
-              time="12:15 PM - 1:00 PM EST/CST" 
-              title="Lunch Break" 
-              description="Enjoy a regenerative organic and vegan meal of pasta with peppers and olive oil or tomato sauce, accompanied by a side salad."
-            />
+            <ScheduleItem time="12:15 PM - 1:00 PM EST/CST" title="Lunch Break" description="Enjoy a regenerative organic and vegan meal of pasta with peppers and olive oil or tomato sauce, accompanied by a side salad." />
             
             <Separator className="my-4" />
             
-            <ScheduleItem 
-              time="1:00 PM - 2:00 PM EST/CST" 
-              title="Earth Element" 
-              description="Participate in a forest bathing walk that deepens your connection with the earth through mindful presence and sensory awareness."
-            />
+            <ScheduleItem time="1:00 PM - 2:00 PM EST/CST" title="Earth Element" description="Participate in a forest bathing walk that deepens your connection with the earth through mindful presence and sensory awareness." />
             
-            <ScheduleItem 
-              time="2:00 PM - 2:45 PM EST/CST" 
-              title="Fire Element" 
-              description="Gather around candles for a discussion on creative solutions to sustainability and resiliency challenges. Express these solutions or prior workshop experiences through coloring or drawing activities."
-            />
+            <ScheduleItem time="2:00 PM - 2:45 PM EST/CST" title="Fire Element" description="Gather around candles for a discussion on creative solutions to sustainability and resiliency challenges. Express these solutions or prior workshop experiences through coloring or drawing activities." />
             
             <Separator className="my-4" />
             
-            <ScheduleItem 
-              time="2:45 PM - 3:00 PM EST/CST" 
-              title="Break" 
-              description="A short break to refresh and prepare for the final element."
-            />
+            <ScheduleItem time="2:45 PM - 3:00 PM EST/CST" title="Break" description="A short break to refresh and prepare for the final element." />
             
-            <ScheduleItem 
-              time="3:00 PM - 3:30 PM EST/CST" 
-              title="Ether Element" 
-              description="Create collaborative personal action plans that revolve around your relationship to another being (such as your spouse, friend, or pet) during quiet reflection time with access to relevant books for inspiration and journaling, beginning with a reading from 'Into the Ether' by Kate Banks."
-            />
+            <ScheduleItem time="3:00 PM - 3:30 PM EST/CST" title="Ether Element" description="Create collaborative personal action plans that revolve around your relationship to another being (such as your spouse, friend, or pet) during quiet reflection time with access to relevant books for inspiration and journaling, beginning with a reading from 'Into the Ether' by Kate Banks." />
             
-            <ScheduleItem 
-              time="3:30 PM - 4:00 PM EST/CST" 
-              title="Commitment Ritual & Closing Circle" 
-              description="Create a group action plan based on shared collective ideas to foster action beyond the workshop in daily living. Participate in a closing ritual offering a gift of reciprocity to the elements and complete a closing reflection survey on relational well-being."
-            />
+            <ScheduleItem time="3:30 PM - 4:00 PM EST/CST" title="Commitment Ritual & Closing Circle" description="Create a group action plan based on shared collective ideas to foster action beyond the workshop in daily living. Participate in a closing ritual offering a gift of reciprocity to the elements and complete a closing reflection survey on relational well-being." />
           </div>
         </div>
         
@@ -211,8 +175,6 @@ const WorkshopDetails: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default WorkshopDetails;
