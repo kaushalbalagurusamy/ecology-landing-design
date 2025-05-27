@@ -49,7 +49,7 @@ const WorkshopDetails: React.FC = () => {
                 <div>
                   <h4 className="font-bold">Time</h4>
                   <p className="text-muted-foreground">Massachusetts: 10:00 AM - 4:00 PM (EST)</p>
-                  <p className="text-muted-foreground">Minnesota: TBD</p>
+                  <p className="text-muted-foreground">Minnesota: 10:00 AM - 4:00 PM (CST)</p>
                 </div>
               </div>
               
