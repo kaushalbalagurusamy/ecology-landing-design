@@ -39,11 +39,8 @@ const WorkshopDetails: React.FC = () => {
                 <Calendar className="h-6 w-6 text-primary-500 mt-0.5" />
                 <div>
                   <h4 className="font-bold">Date</h4>
-                  <p className="text-muted-foreground">Massachusetts: June 22, 2025 (Sunday)
-Minnesota: TBD
-                </p>
-                  <p className="text-muted-foreground">
-                </p>
+                  <p className="text-muted-foreground">Massachusetts: June 22, 2025 (Sunday)</p>
+                  <p className="text-muted-foreground">Minnesota: TBD</p>
                 </div>
               </div>
               
