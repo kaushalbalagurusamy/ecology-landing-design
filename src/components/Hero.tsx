@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
       <div className="container-custom relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <span className="inline-block px-3 py-1 bg-accent-300 text-primary-700 rounded-full text-sm font-medium mb-6">
-            June 22, 2025 • Two Locations: MA & MN
+            Lexington: June 22, 2025 • Duluth: June 9, 23, July 7, 21, 2025
           </span>
           
           <h1 className="heading-xl mb-6">
@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-3 max-w-2xl mx-auto">
-            Explore how all beings—human and non-human—are interconnected through this transformative one-day workshop for local leaders, educators, and change-makers.
+            Explore how all beings—human and non-human—are interconnected through this transformative gathering for local leaders, educators, and change-makers.
           </p>
           
           <p className="text-primary-600 font-medium mb-8 max-w-2xl mx-auto">

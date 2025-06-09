@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
@@ -20,16 +21,16 @@ const RegistrationForm: React.FC = () => {
           <h3 className="text-lg font-medium mb-3">Registration Options</h3>
           <div className="bg-yellow-50 border border-yellow-200 rounded-md p-4 mb-6">
             <p className="text-sm text-yellow-800">
-              🔍 Register for our workshop by completing the form linked below. 
+              🔍 Register for our RCT Ecology Gathering by completing the form linked below. 
               You can choose between our Massachusetts or Minnesota locations.
             </p>
           </div>
           
           <div className="bg-accent-50 p-4 rounded-md">
-            <h4 className="font-medium mb-2">Workshop Information</h4>
+            <h4 className="font-medium mb-2">Gathering Information</h4>
             <ul className="text-sm space-y-2">
-              <li>• Five Fields Common Land, Lexington, Massachusetts (June 22, 10am-4pm EST)</li>
-              <li>• Aftenro, 510 West College Street, Duluth, Minnesota 55811 (Date: TBD, 10am-4pm CST)</li>
+              <li>• Five Fields Common Land, Lexington, Massachusetts (June 22, 10am-2pm EST)</li>
+              <li>• Aftenro, 510 West College Street, Duluth, Minnesota 55811 (June 9, 23, July 7, 21, 3pm-4:30pm CST)</li>
               <li>• You'll need to bring weather-appropriate clothing (rain gear, layers, etc.)</li>
               <li>• Please note any dietary needs or allergies in the registration form</li>
             </ul>
