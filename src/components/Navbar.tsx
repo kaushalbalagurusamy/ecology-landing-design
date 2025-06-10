@@ -18,10 +18,10 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-cream-500/80 backdrop-blur-sm fixed top-0 left-0 right-0 z-50">
+    <nav className="bg-cream-500 bg-opacity-80 fixed top-0 left-0 right-0 z-50" style={{ backdropFilter: 'blur(4px)', WebkitBackdropFilter: 'blur(4px)' }}>
       <div className="container-custom flex items-center justify-between py-4">
         <a href="/" className="flex items-center">
-          <span className="font-heading text-primary-500 text-xl md:text-2xl font-bold">RCT Ecology Workshop</span>
+          <span className="font-heading text-primary-500 text-xl md:text-2xl font-bold">RCT Ecology Gathering</span>
         </a>
         
         {/* Mobile menu button */}
